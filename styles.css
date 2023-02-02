@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(309deg, #001a5c, #000f32, #000f32);
+    background-size: 600% 600%;
+    -webkit-animation: GradientBkg 7s ease infinite;
+    -moz-animation: GradientBkg 7s ease infinite;
+    animation: GradientBkg 7s ease infinite;
+}
+
+.table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 45%;
+    border-spacing: 0, 15px;
+    color: #dfdfdf;
+    margin-bottom: 175px;
+}
+
+.head {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+
+.btn-custom {
+    background-color: rgb(32, 32, 32);
+    color: #dfdfdf;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    color: #dfdfdf;
+}
+
+thead th {
+    border: 0!important;
+}
+
+th,
+td {
+    border-bottom: 0.08em solid #dfdfdf!important;
+    border-top: 0px!important;
+    padding-bottom: 55px!important;
+    font-size: 17pt;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .head {
+        text-align: center;
+        margin-bottom: 75px;
+        margin-top: 0;
+    }
+    h1 {
+        font-size: 25pt;
+    }
+    h3 {
+        font-size: 20pt;
+    }
+    .table {
+        width: 90%;
+    }
+    th,
+    td {
+        font-size: 12pt;
+    }
+}
+
+@-webkit-keyframes GradientBkg {
+    0% {
+        background-position: 0% 17%
+    }
+    50% {
+        background-position: 100% 84%
+    }
+    100% {
+        background-position: 0% 17%
+    }
+}
+
+@-moz-keyframes GradientBkg {
+    0% {
+        background-position: 0% 17%
+    }
+    50% {
+        background-position: 100% 84%
+    }
+    100% {
+        background-position: 0% 17%
+    }
+}
+
+@keyframes GradientBkg {
+    0% {
+        background-position: 0% 17%
+    }
+    50% {
+        background-position: 100% 84%
+    }
+    100% {
+        background-position: 0% 17%
+    }
+}
